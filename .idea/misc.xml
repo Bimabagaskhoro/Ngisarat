@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_circle.xml" value="0.216" />
+        <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/item_selector.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/round_corner.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/round_tittle.xml" value="0.1275" />
+        <entry key="app/src/main/res/layout-v28/fragment_home.xml" value="0.19972826086956522" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12638549804687502" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.24631195068359374" />
+        <entry key="app/src/main/res/layout/fragment_detail_item.xml" value="0.31533050537109375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/items_alphabet.xml" value="0.10245056152343757" />
+        <entry key="app/src/main/res/layout/my_toolbar.xml" value="0.4362640380859375" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.175" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

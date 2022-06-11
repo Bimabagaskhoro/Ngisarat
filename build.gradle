@@ -1,0 +1,43 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.nav_version = "2.3.5"
+    ext.hilt_version = "2.38.1"
+    ext.retrofit_version = "2.9.0"
+    ext.logging_version = "4.9.1"
+    ext.lifecycle_version = "2.3.1"
+    ext.glide_version = "4.12.0"
+    ext.coroutine_version = "1.5.1"
+    ext.kotlin_coroutines_version = "1.3.9"
+    ext.camerax_version = "1.1.0-beta02"
+    ext.easypermission_version = "1.0.0"
+    ext.imagepicker_version = "2.1"
+    ext.tf_lite_version_nightly = "0.0.0-nightly"
+    ext.tf_lite_version = "2.4.0"
+    ext.lottie_version = "4.2.0"
+    ext.camerax_version = "1.1.0-beta02"
+
+
+    repositories {
+        google()
+        mavenCentral()
+        //maven { url "https://jitpack.io" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.2.0'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.3.5"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+plugins {
+    id 'com.android.application' version '7.2.0' apply false
+    id 'com.android.library' version '7.2.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.6.10' apply false
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
