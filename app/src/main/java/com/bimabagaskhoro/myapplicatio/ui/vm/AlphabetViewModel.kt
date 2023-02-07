@@ -12,5 +12,4 @@ import javax.inject.Inject
 class AlphabetViewModel @Inject constructor(val useCases: ItemAlphabetUseCase) : ViewModel() {
     fun getAlphabet() = useCases.getAllAlphabet().asLiveData()
 
-    fun getDetailAlphabet(id: Int) = useCases.getAlphabetById(id).asLiveData()
 }

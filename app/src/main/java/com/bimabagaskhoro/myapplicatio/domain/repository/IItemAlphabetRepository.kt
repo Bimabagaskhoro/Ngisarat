@@ -1,7 +1,7 @@
 package com.bimabagaskhoro.myapplicatio.domain.repository
 
-import com.bimabagaskhoro.myapplicatio.domain.model.ItemAlphabet
 import com.bimabagaskhoro.myapplicatio.data.Resource
+import com.bimabagaskhoro.myapplicatio.domain.model.ItemAlphabet
 import kotlinx.coroutines.flow.Flow
 
 interface IItemAlphabetRepository {

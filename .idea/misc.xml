@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_camera.xml" value="0.166" />
         <entry key="app/src/main/res/drawable/ic_circle.xml" value="0.216" />
         <entry key="app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/item_selector.xml" value="0.1" />
@@ -12,9 +13,9 @@
         <entry key="app/src/main/res/layout-v28/fragment_home.xml" value="0.19972826086956522" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.12638549804687502" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.24631195068359374" />
-        <entry key="app/src/main/res/layout/fragment_detail_item.xml" value="0.31533050537109375" />
-        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/items_alphabet.xml" value="0.10245056152343757" />
+        <entry key="app/src/main/res/layout/fragment_detail_item.xml" value="0.24945068359375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3241106719367589" />
+        <entry key="app/src/main/res/layout/items_alphabet.xml" value="0.3893005371093751" />
         <entry key="app/src/main/res/layout/my_toolbar.xml" value="0.4362640380859375" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.175" />
       </map>

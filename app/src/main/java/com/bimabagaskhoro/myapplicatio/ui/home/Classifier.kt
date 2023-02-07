@@ -31,10 +31,11 @@ class Classifier (assetManager: AssetManager, modelPath: String,
     data class Recognition(
         var id : String = "",
         var tittle : String = "",
-        var confidence : Float = 0F
+        var confidence : Float = 0F,
+
     ) {
         override fun toString(): String {
-            return tittle
+            return "$tittle akurasi =  $confidence"
         }
     }
 

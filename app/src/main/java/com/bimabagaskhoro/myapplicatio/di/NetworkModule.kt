@@ -16,7 +16,8 @@ class NetworkModule {
     @Provides
     fun provideOkHttpClient(): OkHttpClient {
         return OkHttpClient.Builder()
-            .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
+            .addInterceptor(HttpLoggingInterceptor()
+                .setLevel(HttpLoggingInterceptor.Level.BODY))
             .connectTimeout(100, TimeUnit.SECONDS)
             .readTimeout(100, TimeUnit.SECONDS)
             .build()
@@ -25,7 +26,7 @@ class NetworkModule {
     @Provides
     fun provideApiService(client: OkHttpClient): ApiService {
         val retrofit = Retrofit.Builder()
-            .baseUrl("http://172.20.10.11/bisindo-api-php/") //
+            .baseUrl("http://192.168.1.9/bisindo-api-php/") //
             .client(client)
             .addConverterFactory(GsonConverterFactory.create())
             .build()

@@ -103,12 +103,14 @@ class HomeFragment : Fragment() {
             binding.imgPhoto.setImageBitmap(bitmap)
             val results = classifier.recognizeImage(bitmap)
             binding.tvResults.text = results.get(0).toString()
+            binding.tvResultsStr.text = results.get(0).toString()
         }
         else if(requestCode == 200 && resultCode == Activity.RESULT_OK){
             bitmap = data?.extras?.get("data") as Bitmap
             binding.imgPhoto.setImageBitmap(bitmap)
             val results = classifier.recognizeImage(bitmap)
             binding.tvResults.text = results.get(0).toString()
+            binding.tvResultsStr.text = results.get(0).toString()
         }
     }
 
